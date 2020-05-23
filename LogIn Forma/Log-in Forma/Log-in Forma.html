@@ -1,0 +1,41 @@
+<!Doctype html>
+<html>
+<head>
+    <title> Dizajni Log-in</title>
+
+    <link rel = "stylesheet" type="text/css" href="styleLog-in.css">
+
+    <script src="logInScript.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class = "Titulli-Log-in">
+        <h1> Antarsohuni ! </h1>
+        <h2> Plotesoni formen me poshte per tu bere pjese e jona !</h2>
+    </div>
+
+
+
+    <div class = "Log-in Forma">
+        <form id = "Log-in Forma" method = "post" action = "#" onsubmit="return validation();">
+
+            <input id = "name" name = "name" type = "text" class = "login-control" placeholder="Shtyp Emrin..." ><br>
+
+            <input id = "email" name = "email" type = "email" class = "login-control" placeholder = "Shtyp Email-in..." ><br>
+
+            <input id = "password" name = "password" type = "password" class="login-control" placeholder="Shtyp Password-in..."><br>
+
+            <input id = "ConfirmPassword" name = "ConfirmPassword" type = "password" class = "login-control" placeholder="Konfirmo Password-in..." ><br>
+
+            <input type = "submit" class = "login-controlSubmit" value="Regjistrohu">
+
+            <div id="result" style="color: red;"></div>
+
+
+</body>
+
+
+</html>
